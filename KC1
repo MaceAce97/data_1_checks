@@ -1,1 +1,12 @@
 print("Hello world!")
+
+catbreed = ["Siamese", "Bengal", "Maine Coon", "Sphynx", "Persian", "Ragdoll", "Russian Blue"]
+
+print(catbreed)
+
+Pets = {
+    "reptile" : "Bearded Dragon"
+    "fish" : "Betta Fish"
+    "ftank" : "5"
+    "rtank" : "75"
+}
