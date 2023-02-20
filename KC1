@@ -2,11 +2,19 @@ print("Hello world!")
 
 catbreed = ["Siamese", "Bengal", "Maine Coon", "Sphynx", "Persian", "Ragdoll", "Russian Blue"]
 
-print(catbreed)
+print(catbreed[3])
+
 
 Pets = {
-    "reptile" : "Bearded Dragon"
-    "fish" : "Betta Fish"
+    "reptile" : "Bearded Dragon",
+    "fish" : "Betta Fish",
     "ftank" : "5"
     "rtank" : "75"
 }
+
+print(Pets["reptile"])
+
+
+games = ("Genshin Impact" , "Mario Kart 8", "Minecraft", "Overwatch")
+
+print(games[2])
