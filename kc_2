@@ -1,0 +1,9 @@
+pip install pandas
+pip install seaborn
+import pandas as pd
+import seaborn as sns
+ 
+df = pd.read_csv('assets/Test_KC2.csv')
+
+sns.scatterplit (x=df['Supply name'],
+                y=df['Price per unit'])
